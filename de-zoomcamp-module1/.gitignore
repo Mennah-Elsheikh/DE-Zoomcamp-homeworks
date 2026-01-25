@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files
+*.parquet
+*.csv
+
+# Docker
+.docker_volumes/
