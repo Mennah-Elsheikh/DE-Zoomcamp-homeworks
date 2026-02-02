@@ -1,0 +1,33 @@
+# Data files
+*.csv
+*.csv.gz
+*.parquet
+data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
